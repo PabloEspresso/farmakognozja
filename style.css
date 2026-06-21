@@ -102,6 +102,99 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+/* Panel zakreślania w nagłówku */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.highlight-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(255, 255, 255, 0.04);
+  padding: 6px 12px;
+  border-radius: 30px;
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-fast);
+}
+
+body.light-theme .highlight-toolbar {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.header-tool-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  position: relative;
+}
+
+.header-tool-btn:hover {
+  transform: scale(1.15);
+}
+
+.header-tool-btn.active {
+  transform: scale(1.15);
+  box-shadow: 0 0 0 2px var(--bg-sidebar), 0 0 0 4px var(--accent-color);
+}
+
+body.light-theme .header-tool-btn.active {
+  box-shadow: 0 0 0 2px var(--bg-secondary), 0 0 0 4px var(--accent-color);
+}
+
+/* Kolory przycisków zakreślacza */
+.header-tool-btn.yellow { background-color: #eab308; }
+.header-tool-btn.green { background-color: #10b981; }
+.header-tool-btn.blue { background-color: #3b82f6; }
+.header-tool-btn.pink { background-color: #ec4899; }
+
+/* Przycisk gumki i wyłączenia */
+.header-tool-btn.eraser-btn,
+.header-tool-btn.clear-btn {
+  background-color: transparent;
+  border: none;
+  color: var(--text-secondary);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.header-tool-btn.eraser-btn svg,
+.header-tool-btn.clear-btn svg {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+}
+
+.header-tool-btn.eraser-btn:hover,
+.header-tool-btn.clear-btn:hover {
+  color: var(--text-primary);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+body.light-theme .header-tool-btn.eraser-btn:hover,
+body.light-theme .header-tool-btn.clear-btn:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.header-tool-btn.eraser-btn.active {
+  color: var(--text-primary);
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+body.light-theme .header-tool-btn.eraser-btn.active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 /* Wyszukiwarka */
 .search-container {
   position: relative;

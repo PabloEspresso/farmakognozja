@@ -3,6 +3,7 @@ let activeChapterId = null;
 let activeTab = "summary";
 let completedChapters = new Set();
 let flashcardIndex = 0;
+let activeHighlightColor = null; // null, color value or 'eraser'
 
 // Stan quizu
 let currentQuizQuestionIndex = 0;
@@ -630,7 +631,42 @@ function setupEventListeners() {
     }
   });
 
-  // Obsługa zakreślania tekstu - kolory
+  // Obsługa paska zakreślacza w nagłówku
+  const headerToolbar = document.getElementById('header-highlight-toolbar');
+  if (headerToolbar) {
+    const buttons = headerToolbar.querySelectorAll('.header-tool-btn');
+    const clearBtn = document.getElementById('clear-highlight-tool');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const isCurrentlyActive = btn.classList.contains('active');
+
+        // Resetuj klasy aktywne we wszystkich przyciskach w nagłówku
+        buttons.forEach(b => b.classList.remove('active'));
+
+        if (isCurrentlyActive) {
+          activeHighlightColor = null;
+          clearBtn.style.display = 'none';
+        } else {
+          btn.classList.add('active');
+          if (btn.classList.contains('eraser-btn')) {
+            activeHighlightColor = 'eraser';
+          } else {
+            activeHighlightColor = btn.dataset.color;
+          }
+          clearBtn.style.display = 'flex';
+        }
+      });
+    });
+
+    clearBtn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      activeHighlightColor = null;
+      clearBtn.style.display = 'none';
+    });
+  }
+
+  // Obsługa zakreślania tekstu - kolory w popoverze (jako rezerwa)
   const popover = document.getElementById('highlight-popover');
   popover.querySelectorAll('.color-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -639,7 +675,7 @@ function setupEventListeners() {
     });
   });
 
-  // Obsługa zakreślania tekstu - gumka
+  // Obsługa zakreślania tekstu - gumka w popoverze (jako rezerwa)
   popover.querySelector('.eraser-btn').addEventListener('click', () => {
     clearSelectionHighlight();
   });
@@ -671,10 +707,13 @@ function handleTextSelectionWithTarget(target) {
   const selection = window.getSelection();
   const popover = document.getElementById('highlight-popover');
   
-  if (popover.contains(target)) return;
+  if (popover && popover.contains(target)) return;
+
+  const headerToolbar = document.getElementById('header-highlight-toolbar');
+  if (headerToolbar && headerToolbar.contains(target)) return;
 
   if (selection.isCollapsed || !selection.toString().trim()) {
-    popover.classList.add('hidden');
+    if (popover) popover.classList.add('hidden');
     return;
   }
 
@@ -691,16 +730,26 @@ function handleTextSelectionWithTarget(target) {
   }
 
   if (!isValidContainer) {
-    popover.classList.add('hidden');
+    if (popover) popover.classList.add('hidden');
+    return;
+  }
+
+  // JEŚLI JEST AKTYWNY KOLOR W NAGŁÓWKU - ZAKREŚLAMY LUB WYMAZUJEMY NATYCHMIAST
+  if (activeHighlightColor) {
+    if (activeHighlightColor === 'eraser') {
+      clearSelectionHighlight();
+    } else {
+      highlightSelection(activeHighlightColor);
+    }
     return;
   }
 
   const rect = range.getBoundingClientRect();
-  popover.classList.remove('hidden');
-
-  // Pozycjonowanie (na desktopie nad zaznaczeniem, na mobile CSS nadpisuje to jako przyklejony panel dolny)
-  popover.style.top = `${window.scrollY + rect.top}px`;
-  popover.style.left = `${window.scrollX + rect.left + (rect.width / 2)}px`;
+  if (popover) {
+    popover.classList.remove('hidden');
+    popover.style.top = `${window.scrollY + rect.top}px`;
+    popover.style.left = `${window.scrollX + rect.left + (rect.width / 2)}px`;
+  }
 }
 
 // Zakreślanie zaznaczonego obszaru wybranym kolorem (zmiana koloru czcionki)
