@@ -690,6 +690,107 @@ function setupEventListeners() {
 // Funkcje Zakreślania Tekstu (Highlights)
 // ==========================================================================
 
+let touchStartRange = null;
+
+document.addEventListener('touchstart', (e) => {
+  if (!activeHighlightColor) return;
+
+  let target = e.target;
+  let isValid = false;
+  while (target && target !== document.body) {
+    if (target.classList && (target.classList.contains('reading-view') || target.classList.contains('concepts-grid'))) {
+      isValid = true;
+      break;
+    }
+    target = target.parentNode;
+  }
+
+  if (!isValid) return;
+
+  // Ponieważ zakreślacz jest aktywny, wyłączamy domyślne przewijanie ekranu przy przeciąganiu palcem
+  e.preventDefault();
+
+  const touch = e.touches[0];
+  if (document.caretRangeFromPoint) {
+    touchStartRange = document.caretRangeFromPoint(touch.clientX, touch.clientY);
+  } else if (document.caretPositionFromPoint) {
+    const pos = document.caretPositionFromPoint(touch.clientX, touch.clientY);
+    if (pos) {
+      touchStartRange = document.createRange();
+      touchStartRange.setStart(pos.offsetNode, pos.offset);
+      touchStartRange.collapse(true);
+    }
+  }
+}, { passive: false });
+
+document.addEventListener('touchmove', (e) => {
+  if (!activeHighlightColor || !touchStartRange) return;
+
+  e.preventDefault();
+
+  const touch = e.touches[0];
+  let currentRange = null;
+  if (document.caretRangeFromPoint) {
+    currentRange = document.caretRangeFromPoint(touch.clientX, touch.clientY);
+  } else if (document.caretPositionFromPoint) {
+    const pos = document.caretPositionFromPoint(touch.clientX, touch.clientY);
+    if (pos) {
+      currentRange = document.createRange();
+      currentRange.setStart(pos.offsetNode, pos.offset);
+      currentRange.collapse(true);
+    }
+  }
+
+  if (currentRange) {
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    const range = document.createRange();
+
+    const startNode = touchStartRange.startContainer;
+    const startOffset = touchStartRange.startOffset;
+    const endNode = currentRange.startContainer;
+    const endOffset = currentRange.startOffset;
+
+    let position = startNode.compareDocumentPosition(endNode);
+    let isBackward = false;
+
+    if (startNode === endNode) {
+      isBackward = startOffset > endOffset;
+    } else if (position & Node.DOCUMENT_POSITION_PRECEDING) {
+      isBackward = true;
+    }
+
+    try {
+      if (isBackward) {
+        range.setStart(endNode, endOffset);
+        range.setEnd(startNode, startOffset);
+      } else {
+        range.setStart(startNode, startOffset);
+        range.setEnd(endNode, endOffset);
+      }
+      selection.addRange(range);
+    } catch (err) {
+      console.error("Błąd zakresu dotykowego:", err);
+    }
+  }
+}, { passive: false });
+
+document.addEventListener('touchend', (e) => {
+  if (!activeHighlightColor || !touchStartRange) return;
+
+  const selection = window.getSelection();
+  if (selection.rangeCount && !selection.isCollapsed && selection.toString().trim()) {
+    if (activeHighlightColor === 'eraser') {
+      clearSelectionHighlight();
+    } else {
+      highlightSelection(activeHighlightColor);
+    }
+  }
+
+  window.getSelection().removeAllRanges();
+  touchStartRange = null;
+});
+
 // Wykrywanie zaznaczenia tekstu i pokazywanie popovera (z obsługą myszy oraz ekranów dotykowych)
 document.addEventListener('mouseup', (e) => {
   handleTextSelectionWithTarget(e.target);
