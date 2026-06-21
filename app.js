@@ -542,6 +542,24 @@ function setupEventListeners() {
     }
   });
 
+  // Obsługa ukrywania panelu bocznego (Spisu treści)
+  const sidebarToggle = document.getElementById("sidebar-toggle-btn");
+  if (sidebarToggle) {
+    const layout = document.querySelector(".app-layout");
+    const isCollapsed = localStorage.getItem("sidebar_collapsed") === "true";
+    if (isCollapsed) {
+      layout.classList.add("sidebar-collapsed");
+      sidebarToggle.classList.add("active");
+    }
+
+    sidebarToggle.addEventListener("click", () => {
+      layout.classList.toggle("sidebar-collapsed");
+      const active = layout.classList.contains("sidebar-collapsed");
+      sidebarToggle.classList.toggle("active", active);
+      localStorage.setItem("sidebar_collapsed", active);
+    });
+  }
+
   // Obsługa zakładek rozdziału
   document.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
