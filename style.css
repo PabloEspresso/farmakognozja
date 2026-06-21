@@ -1058,6 +1058,59 @@ body.light-theme .header-tool-btn.eraser-btn.active {
     overflow-y: auto;
   }
   
+  .app-header {
+    height: auto;
+    min-height: 60px;
+    padding: 12px 16px;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+  }
+
+  .header-left {
+    gap: 12px;
+  }
+
+  .logo-text {
+    display: none; /* Ukrywamy tekst logo, zostawiając samą ikonkę książki */
+  }
+
+  .search-container {
+    order: 3; /* Przenosimy wyszukiwarkę pod spód logo i motywu */
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .highlight-toolbar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--bg-secondary);
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
+    border: 1px solid var(--border-color);
+    z-index: 1001;
+    padding: 8px 16px;
+    gap: 12px;
+    border-radius: var(--radius-lg);
+    width: auto;
+    max-width: 90%;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .header-tool-btn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .header-tool-btn.eraser-btn,
+  .header-tool-btn.clear-btn {
+    width: 28px;
+    height: 28px;
+  }
+
   .app-layout {
     flex-direction: column;
     overflow: visible;
@@ -1099,23 +1152,9 @@ body.light-theme .header-tool-btn.eraser-btn.active {
     font-size: 0.85rem;
   }
 
-  /* Przyklejony u dołu ekranu panel zakreślania na urządzeniach mobilnych */
+  /* Wyłączamy dymek popovera na mobile, ponieważ mamy dolny przyklejony pasek narzędzi */
   .highlight-popover {
-    position: fixed;
-    top: auto !important;
-    bottom: 24px;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    margin-top: 0;
-    width: calc(100% - 32px);
-    max-width: 320px;
-    justify-content: space-around;
-    padding: 10px 16px;
-    border-radius: var(--radius-lg);
-    background-color: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
-    animation: popoverSlideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    display: none !important;
   }
 
   @keyframes popoverSlideUp {
