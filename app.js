@@ -674,6 +674,7 @@ function setupEventListeners() {
           }
           clearBtn.style.display = 'flex';
         }
+        updateHighlighterCursorClass();
       });
     });
 
@@ -681,6 +682,7 @@ function setupEventListeners() {
       buttons.forEach(b => b.classList.remove('active'));
       activeHighlightColor = null;
       clearBtn.style.display = 'none';
+      updateHighlighterCursorClass();
     });
   }
 
@@ -948,5 +950,31 @@ function saveHighlightsState() {
     localStorage.setItem(`highlights_${activeChapterId}_concepts`, grid.innerHTML);
     const currentSignature = chapter.concepts.map(c => c.term).join('|') + '::' + chapter.concepts.map(c => c.definition.length).join('|');
     localStorage.setItem(`highlights_${activeChapterId}_concepts_signature`, currentSignature);
+  }
+}
+
+function updateHighlighterCursorClass() {
+  document.body.classList.remove(
+    'highlighter-active',
+    'highlighter-yellow',
+    'highlighter-green',
+    'highlighter-blue',
+    'highlighter-pink',
+    'highlighter-eraser'
+  );
+
+  if (activeHighlightColor) {
+    document.body.classList.add('highlighter-active');
+    if (activeHighlightColor === '#eab308') {
+      document.body.classList.add('highlighter-yellow');
+    } else if (activeHighlightColor === '#10b981') {
+      document.body.classList.add('highlighter-green');
+    } else if (activeHighlightColor === '#3b82f6') {
+      document.body.classList.add('highlighter-blue');
+    } else if (activeHighlightColor === '#ec4899') {
+      document.body.classList.add('highlighter-pink');
+    } else if (activeHighlightColor === 'eraser') {
+      document.body.classList.add('highlighter-eraser');
+    }
   }
 }
