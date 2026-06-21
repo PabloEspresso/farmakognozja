@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interaktywne Kompendium Wiedzy</title>
+  <!-- Google Fonts: Inter i Merriweather -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <!-- Górny Pasek (Header) -->
+  <header class="app-header">
+    <div class="header-logo">
+      <svg class="icon-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+        <path d="M6 6h10"/>
+        <path d="M6 10h10"/>
+      </svg>
+      <span class="logo-text">Book<span class="logo-highlight">Compendium</span></span>
+    </div>
+    
+    <!-- Wyszukiwarka -->
+    <div class="search-container">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.3-4.3"/>
+      </svg>
+      <input type="text" id="search-input" placeholder="Szukaj pojęć, pytań lub rozdziałów..." autocomplete="off">
+      <div id="search-results" class="search-results-dropdown hidden"></div>
+    </div>
+    
+    <div class="header-actions">
+      <!-- Przełącznik motywu -->
+      <button id="theme-toggle" class="btn-icon" title="Zmień motyw">
+        <svg class="sun-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2"/>
+          <path d="M12 20v2"/>
+          <path d="m4.93 4.93 1.41 1.41"/>
+          <path d="m17.66 17.66 1.41 1.41"/>
+          <path d="M2 12h2"/>
+          <path d="M20 12h2"/>
+          <path d="m6.34 17.66-1.41 1.41"/>
+          <path d="m19.07 4.93-1.41 1.41"/>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Pasek Postępu -->
+  <div class="progress-bar-container">
+    <div id="progress-indicator" class="progress-indicator-fill" style="width: 0%;"></div>
+  </div>
+
+  <!-- Główny Układ (Sidebar + Content) -->
+  <div class="app-layout">
+    <!-- Panel Boczny (Nawigacja) -->
+    <aside class="app-sidebar">
+      <div class="sidebar-header">
+        <h2>Spis treści</h2>
+        <span id="progress-text" class="progress-badge">Ukończono: 0%</span>
+      </div>
+      <nav class="sidebar-nav">
+        <ul id="chapter-list" class="chapter-list">
+          <!-- Wstrzykiwane dynamicznie za pomocą JS -->
+        </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <button id="reset-progress-btn" class="btn-text">Resetuj postęp</button>
+      </div>
+    </aside>
+
+    <!-- Panel Główny (Treść i Nauka) -->
+    <main class="app-content">
+      <!-- Puste okno domyślne / powitalne -->
+      <div id="welcome-view" class="welcome-view">
+        <svg class="welcome-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+          <path d="m8 13 3 3 5-5"/>
+        </svg>
+        <h1>Witaj w Kompendium Wiedzy!</h1>
+        <p>Wybierz interesujący Cię rozdział ze spisu treści po lewej stronie, aby rozpocząć naukę, zapoznać się z kluczowymi pojęciami lub poćwiczyć na interaktywnych fiszkach.</p>
+      </div>
+
+      <!-- Widok Rozdziału -->
+      <div id="chapter-view" class="chapter-view hidden">
+        <div class="chapter-header">
+          <div class="title-area">
+            <span class="chapter-label">Rozdział</span>
+            <h1 id="chapter-title">Tytuł Rozdziału</h1>
+          </div>
+          <button id="mark-read-btn" class="btn-secondary">
+            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 6 9 17l-5-5"/>
+            </svg>
+            <span>Oznacz jako przeczytany</span>
+          </button>
+        </div>
+
+        <!-- Zakładki do Nauki -->
+        <div class="tabs-nav">
+          <button id="tab-summary" class="tab-btn active" data-tab="summary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            Podsumowanie
+          </button>
+          <button id="tab-concepts" class="tab-btn" data-tab="concepts">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5V15a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4.5M20 19.5V15a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4.5M12 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M12 10v9"/></svg>
+            Pojęcia
+          </button>
+          <button id="tab-flashcards" class="tab-btn" data-tab="flashcards">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg>
+            Fiszki Q&A
+          </button>
+          <button id="tab-quiz" class="tab-btn" data-tab="quiz">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Quiz
+          </button>
+        </div>
+
+        <!-- Zawartość Zakładek -->
+        <div class="tab-content-container">
+          <!-- Zakładka 1: Podsumowanie -->
+          <div id="content-summary" class="tab-pane active">
+            <article id="summary-article" class="reading-view">
+              <!-- Tekst podsumowania rozdziału wstrzykiwany za pomocą JS -->
+            </article>
+          </div>
+
+          <!-- Zakładka 2: Pojęcia -->
+          <div id="content-concepts" class="tab-pane">
+            <div class="concepts-grid" id="concepts-grid">
+              <!-- Pojęcia i definicje wstrzykiwane przez JS -->
+            </div>
+          </div>
+
+          <!-- Zakładka 3: Fiszki -->
+          <div id="content-flashcards" class="tab-pane">
+            <div class="flashcard-carousel">
+              <div class="flashcard-container">
+                <div class="flashcard" id="current-flashcard">
+                  <div class="flashcard-face flashcard-front">
+                    <span class="flashcard-tag">Pytanie</span>
+                    <p class="flashcard-text" id="flashcard-question-text">Pytanie...</p>
+                    <span class="flashcard-hint">Kliknij, aby zobaczyć odpowiedź</span>
+                  </div>
+                  <div class="flashcard-face flashcard-back">
+                    <span class="flashcard-tag">Odpowiedź</span>
+                    <p class="flashcard-text" id="flashcard-answer-text">Odpowiedź...</p>
+                    <span class="flashcard-hint">Kliknij ponownie, aby odwrócić</span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-controls">
+                <button id="prev-card-btn" class="btn-control" title="Poprzednia fiszka">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <span id="card-counter" class="card-counter">1 / 5</span>
+                <button id="next-card-btn" class="btn-control" title="Następna fiszka">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zakładka 4: Quiz -->
+          <div id="content-quiz" class="tab-pane">
+            <div class="quiz-container" id="quiz-container">
+              <!-- Treść quizu wstrzykiwana przez JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Panel Zakreślania (Highlight Popover) -->
+  <div id="highlight-popover" class="highlight-popover hidden">
+    <button class="color-btn yellow" data-color="#eab308" title="Żółty tekst"></button>
+    <button class="color-btn green" data-color="#10b981" title="Zielony tekst"></button>
+    <button class="color-btn blue" data-color="#3b82f6" title="Niebieski tekst"></button>
+    <button class="color-btn pink" data-color="#ec4899" title="Różowy tekst"></button>
+    <div class="popover-divider"></div>
+    <button class="eraser-btn" title="Usuń zakreślenie">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m7 21-4.3-4.3c-1-1-1-2.5 0-3.4l12.8-12.8c1-1 2.5-1 3.4 0l4.3 4.3c1 1 1 2.5 0 3.4L11 21Z"/>
+        <path d="m22 21-7.5-7.5"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Stopka wczytująca skrypty -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

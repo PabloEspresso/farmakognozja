@@ -1,0 +1,112 @@
+Oto szczegółowe kompendium dla pierwszego głównego tematu zgodnie z Twoimi wytycznymi. 
+
+[Węglowodany, polisacharydy śluzowe, grzybowe, gumy roślinne i pektyny]
+
+Podsumowanie
+
+Węglowodany stanowią najbardziej rozpowszechnioną grupę substancji w świecie roślin, pełniąc rolę materiałów zapasowych (np. skrobia, inulina) lub elementów strukturalnych i budulcowych (np. celuloza, pektyny). Monosacharydy i oligosacharydy przeważnie rozpuszczają się w wodzie i często stanowią część cukrową aktywnych glikozydów. W farmakognozji największe znaczenie lecznicze i technologiczne odgrywają polisacharydy (wielocukry), do których zaliczamy polimery glukozy, fruktozy i mannozy, polisacharydy alg, a także śluzy, gumy roślinne, pektyny i specyficzne polisacharydy grzybowe. Surowce śluzowe pęcznieją w wodzie i podane wewnętrznie powlekają błony śluzowe żołądka, gardła i jelit, dając efekt osłaniający, przeciwzapalny oraz przeciwkaszlowy, a w dużych dawkach również ułatwiający wypróżnianie. Z kolei pektyny regulują pasaż jelitowy i obniżają stężenie cholesterolu we krwi. Gumy pełnią w farmacji rolę stabilizatorów i emulgatorów, a polisacharydy izolowane z grzybów wielkoowocnikowych silnie stymulują układ immunologiczny.
+
+Pojęcia kluczowe
+
+[Skrobie roślinne]: Wysokocząsteczkowe polimery glukozy, zbudowane z amylozy i amylopektyny, stanowiące główny materiał zapasowy roślin. 
+* **Surowce:** Skrobia ziemniaczana (*Solani amylum* – rodzina psiankowate / *Solanaceae*), Skrobia kukurydziana (*Maydis amylum* – rodzina wiechlinowate / *Poaceae*), Skrobia pszeniczna (*Tritici amylum* – rodzina wiechlinowate / *Poaceae*).
+* **Skład fitochemiczny:** Głównymi związkami są amylopektyna (65-85%) o łańcuchach rozgałęzionych oraz amyloza (20-35%).
+* **Działanie i zastosowanie:** Skrobia działa silnie adsorbująco i osłaniająco. Używa się jej do łagodzenia stanów zapalnych skóry (w formie zasypek) oraz w podrażnieniach przewodu pokarmowego (w formie kleiku). W farmacji jest powszechnie stosowana jako substancja wypełniająca i rozsadzająca w produkcji tabletek.
+
+[Porost islandzki]: Surowiec polisacharydowy pozyskiwany z plech porostów, u którego właściwości powlekające śluzów korelują z antybiotycznym i drażniącym działaniem gorzkich kwasów porostowych.
+* **Surowce:** Porost islandzki (*Lichen islandicus* – rodzina misecznicowate / *Parmeliaceae*).
+* **Skład fitochemiczny:** Ponad 50% polisacharydów (głównie rozpuszczalne i nierozpuszczalne glukany: lichenina, izolichenina) oraz specyficzne depsydony – kwasy porostowe (kwas cetrarowy, fumaroprotocetrarowy, protolichesterynowy).
+* **Działanie i zastosowanie:** Działa powlekająco na drogi oddechowe i żołądek (łagodzi suchy kaszel i stany zapalne), zwiększa łaknienie (kwasy goryczowe), a także hamuje rozwój bakterii (m.in. *Helicobacter pylori* czy prątków gruźlicy).
+
+[Bulwa słonecznika bulwiastego]: Surowiec będący rezerwuarem fruktozanów (inuliny), znajdujący zastosowanie w kuracjach metabolicznych i dietetycznych.
+* **Surowce:** Bulwa słonecznika bulwiastego / topinambur (*Helianthi tuberosi tuber* – rodzina astrowate / *Asteraceae*).
+* **Skład fitochemiczny:** Węglowodany (do 75%), w tym głównie inulina i niskocząsteczkowe fruktooligosacharydy, a także witaminy (C, z grupy B) i sole mineralne.
+* **Działanie i zastosowanie:** Inulina pełni funkcję prebiotyku (pożywki dla bifidobakterii), daje uczucie sytości, reguluje wypróżniania oraz spowalnia wchłanianie cukrów i tłuszczów. Stosuje się jako preparat ułatwiający redukcję masy ciała oraz pomocniczo w cukrzycy.
+
+[Kłącze perzu]: Powszechny surowiec z rodziny traw gromadzący specyficzne fruktany typu lewanu, łączący efekt powlekający ze wspieraniem eliminacji szkodliwych metabolitów.
+* **Surowce:** Kłącze perzu (*Graminis rhizoma* / *Agropyri rhizoma* – rodzina wiechlinowate / *Poaceae*).
+* **Skład fitochemiczny:** Polisacharydy (trytycyna 3-10%, śluzy), alkohole cukrowe (mannitol, inozytol), sole kwasu krzemowego oraz poliacetyleny (kapilen).
+* **Działanie i zastosowanie:** Działa moczopędnie, ułatwia oczyszczanie organizmu i łagodzi stany zapalne dróg moczowych oraz oddechowych (śluzy). Reguluje również wypróżniania i wspomaga spadek frakcji lipidowych. Znalazł zastosowanie w profilaktyce kamicy nerkowej, dnie moczanowej oraz cukrzycy.
+
+[Algi polisacharydowe]: Plechy pozyskiwane z wód morskich, wyodrębniane z krasnorostów lub brunatnic, służące jako naturalne źródło hydrokoloidów pęczniejących w wodzie.
+* **Surowce:** Agar (*Agar* pozyskiwany głównie z galaretówek – *Gelidiaceae*), Karagen (*Carrageen* z chrzęścicy kędzierzawej – *Gigartinaceae*), Morszczyn (*Fucus* – rodzina morszczynowate / *Fucaceae*).
+* **Skład fitochemiczny:** Agar zawiera galaktany (agarozę i agaropektynę). Karagen zawiera siarczanowane galaktany – karageniny. Morszczyn gromadzi śluzy (kwas alginowy, fukoidany) oraz organiczne i nieorganiczne związki jodu.
+* **Działanie i zastosowanie:** Pęczniejąc w żołądku i jelitach, zmniejszają uczucie głodu oraz działają łagodnie przeczyszczająco (agar, karagen). Morszczyn przyspiesza dodatkowo metabolizm dzięki uwalnianiu jodu hormonotwórczego; wykorzystywany bywa w otyłości i niedoczynności tarczycy. Kwas alginowy znalazł z kolei zastosowanie jako osłona w nadkwaśności soku żołądkowego i środek powlekający.
+
+[Nasienie kozieradki]: Klasyczny surowiec śluzowy nasion, będący źródłem mieszaniny galaktomannanów o właściwościach ochronnych oraz odżywczych.
+* **Surowce:** Nasienie kozieradki (*Foenugraeci semen* – rodzina bobowate / *Fabaceae*).
+* **Skład fitochemiczny:** Wysoka zawartość śluzu z galaktomannanów (45-60%), białko, olej tłusty bogaty w NNKT oraz saponozydy steroidowe.
+* **Działanie i zastosowanie:** Obniża poziom glukozy oraz cholesterolu i frakcji lipidowych we krwi, osłania błonę śluzową układu trawiennego. Stosowany wewnętrznie w chorobie wrzodowej i wspomagająco w cukrzycy, a zewnętrznie jako okład na stany zapalne skóry, egzemy oraz ropnie.
+
+[Korzeń i liść prawoślazu]: Flagowe surowce śluzowe o bardzo wysokim wskaźniku pęcznienia, powlekające i ułatwiające regenerację obolałych tkanek nabłonkowych.
+* **Surowce:** Korzeń prawoślazu (*Althaeae radix* – rodzina ślazowate / *Malvaceae*), Liść prawoślazu (*Althaeae folium* – rodzina ślazowate / *Malvaceae*).
+* **Skład fitochemiczny:** Ekstremalnie duża ilość pęczniejącego śluzu (kwaśne galakturonoramnany i arabinogalaktany), pektyny oraz dodatki flawonoidów.
+* **Działanie i zastosowanie:** Wodne maceraty śluzowe izolują receptory kaszlowe od czynników drażniących, znosząc suchy i męczący kaszel. Stosowane w nieżytach górnych dróg oddechowych, a także do powlekania błon przewodu pokarmowego w przypadku nadkwaśności, choroby wrzodowej lub uszkodzeń nabłonka.
+
+[Kwiaty i liście ślazów oraz malwy]: Kolorowe surowce kwiatowe i liściowe obok wysokiej zawartości śluzu dostarczające barwników i flawonoidów łagodzących lokalne procesy zapalne.
+* **Surowce:** Liść/kwiat ślazu (*Malvae folium/flos* – rodzina ślazowate / *Malvaceae*), Kwiat malwy czarnej (*Malvae arboreae flos* – rodzina ślazowate / *Malvaceae*).
+* **Skład fitochemiczny:** Śluz, a także znaczące ilości flawonoidów oraz antocyjany (np. pochodne malwidyny i delfinidyny w kwiatach malwy i ślazu dzikiego).
+* **Działanie i zastosowanie:** Osłaniają usta, krtanie i gardło, łagodząc odruch kaszlowy. Stosowane do płukania stanów zapalnych, a także doustnie w nieżytach górnych dróg oddechowych w celu ułatwienia odkrztuszania gęstej wydzieliny.
+
+[Liść babki lancetowatej]: Surowiec osłaniający o wielokierunkowym działaniu prozdrowotnym, wspierany bakteriobójczym efektem substancji irydoidowych.
+* **Surowce:** Liść babki lancetowatej (*Plantaginis lanceolatae folium* – rodzina babkowate / *Plantaginaceae*).
+* **Skład fitochemiczny:** Śluzy, glikozydy irydoidowe (szczególnie aukubina, katalpol), związki mineralne (krzemionka, cynk), garbniki i fenyloetanoidy.
+* **Działanie i zastosowanie:** Powleka i łagodzi podrażnienia (śluzy), niszczy bakterie (aukubigenina) oraz rozluźnia mięśniówkę oskrzeli. Stosowany zarówno jako lek łagodzący suchy kaszel, jak i silnie regenerujący okład w owrzodzeniach, uciążliwych oparzeniach i stanach zapalnych spojówek.
+
+[Nasiona i łupiny babki jajowatej oraz płesznik]: Związki śluzowe umiejscowione głównie w łupinie nasiennej, które po dostaniu się do wody natychmiast tworzą obfity, sycący żel.
+* **Surowce:** Nasienie i łupina nasienna babki jajowatej (*Plantaginis ovatae semen/tegumentum* – rodzina babkowate / *Plantaginaceae*), Nasienie babki płesznik (*Psyllii semen* – rodzina babkowate / *Plantaginaceae*).
+* **Skład fitochemiczny:** Bardzo wysoka zawartość hydrofilnego śluzu z arabinoksylanów (nawet do 25% w łupinach B. jajowatej), irydoidy, błonnik celulozowy.
+* **Działanie i zastosowanie:** Typowe błonnikowe działanie przeczyszczające przez pęcznienie. Masywne absorbowanie wody zwiększa objętość stolca i normalizuje ruch robaczkowy jelit. Preparaty te zalecane są w chronicznych zaparciach, podrażnieniach uchyłków, żylakach odbytu i jako reduktory łaknienia.
+
+[Liść podbiału]: Surowiec w medycynie znany ze znakomitych właściwości wykrztuśnych i osłaniających, jednak ograniczany terapeutycznie przez śladową obecność związków hepatotoksycznych.
+* **Surowce:** Liść podbiału (*Farfarae folium* – rodzina astrowate / *Asteraceae*).
+* **Skład fitochemiczny:** Śluz, inulina, garbniki oraz minimalne stężenia toksycznych alkaloidów pirolizydynowych (tussilagina, senecjonina).
+* **Działanie i zastosowanie:** Zmniejsza podrażnienie układu oddechowego i wykazuje silne właściwości powlekające nabłonek krtani i gardła. Powszechny lek przeciwkaszlowy, który jednak ze względu na obecność alkaloidów nie może być stosowany przewlekle (ani przez kobiety w ciąży).
+
+[Kwiat dziewanny]: Surowiec bogaty w synergicznie połączone frakcje śluzowe i saponinowe stymulujące pozbywanie się ropnej wydzieliny oskrzelowej.
+* **Surowce:** Kwiat dziewanny (*Verbasci flos* – rodzina trędownikowate / *Scrophulariaceae*).
+* **Skład fitochemiczny:** Śluz, cukry proste, cenne saponozydy triterpenowe (np. werbaskosaponina), oraz flawonoidy i irydoidy.
+* **Działanie i zastosowanie:** Podwójny efekt dróg oddechowych – śluzy osłaniają zbolałe błony śluzowe niwelując suchy odruch kaszlu, a saponiny ułatwiają wykrztuszanie stężałego śluzu. Częsty składnik mieszanek ziołowych i syropów na przeziębienia.
+
+[Nasienie lnu (Siemię lniane)]: Niezwykle cenny surowiec o lepkich galaktanach stosowany zarówno w profilaktyce gastrycznej, jak i dermatologii.
+* **Surowce:** Nasienie lnu (*Lini semen* – rodzina lnowate / *Linaceae*).
+* **Skład fitochemiczny:** Silnie lepki śluz, duża ilość oleju tłustego (kwasy omega-3 – linolenowy), fitoestrogeny (lignany) i glukozydy cyjanogenne.
+* **Działanie i zastosowanie:** Maceraty uwalniają śluz, chroniąc ścianki żołądka przed kwasami (stosowane w chorobie wrzodowej), podczas gdy użycie całych ziaren świetnie stymuluje wypróżniania. Odtłuszczona miazga (kataplazmy) pomaga wyciągać ropę ze stanów zapalnych skóry (czyraki).
+
+[Korzeń żywokostu]: Śluzowy i ułatwiający zrosty surowiec o wybitnym działaniu zewnętrznym przyspieszającym regenerację układu chrzęstno-kostnego.
+* **Surowce:** Korzeń żywokostu (*Symphyti radix* – rodzina ogórecznikowate / *Boraginaceae*).
+* **Skład fitochemiczny:** Dużo śluzu (do 15%), alantoina, garbniki oraz szkodliwe alkaloidy pirolizydynowe.
+* **Działanie i zastosowanie:** Zmiękcza i redukuje stany zapalne. Przyspiesza przyrost kostniny i gojenie tkanek (alantoina). Ze względu na hepatotoksyczność alkaloidów stosuje się go obecnie wyłącznie zewnętrznie w postaci maści lub okładów na stłuczenia, złamania, naderwania ścięgien czy owrzodzenia kończyn.
+
+[Polisacharydy grzybów wielkoowocnikowych]: Złożone immunomodulatory polimeryczne pozyskiwane z komórek macierzystych specyficznych grzybów.
+* **Surowce:** Grzyby np. Twardziak jadalny (*Lentinus edodes*), Rozszczepka pospolita (*Schizophyllum commune*).
+* **Skład fitochemiczny:** Zaawansowane strukturalnie glukany (m.in. lentinan, schizofylan, tylopilan).
+* **Działanie i zastosowanie:** Glukany grzybowe mocno stymulują pracę komórek ludzkiego układu immunologicznego. Są wykorzystywane jako bardzo ważny, wspomagający element we współczesnym leczeniu zmian nowotworowych.
+
+[Pektyny i Gumy roślinne]: Kwasowe hydrokoloidy pęczniejące w wodzie, naturalnie uszczelniające ściany komórkowe lub służące jako substancje barierowe drzew.
+* **Surowce:** Niedojrzałe owoce (dla pektyn), Guma tragakanta (*Tragacantha* z rodzaju *Astragalus* - *Fabaceae*), Guma arabska (*Gummi arabicum* z rodzaju *Acacia* - *Mimosaceae*).
+* **Skład fitochemiczny:** Rozgałęzione polimery zbudowane w większości z galakturonowych kwasów i cukrów prostych.
+* **Działanie i zastosowanie:** Pektyny powlekają jelita, sprzyjają dobrym bakteriom prebiotycznym i silnie łagodzą biegunki dziecięce, wspomagająco obniżają poziom cholesterolu. Gumy to doskonałe, naturalne substancje stabilizujące zawiesiny i zwiększające lepkość w technologii leków i żywności.
+
+## Fiszki Q&A
+
+Q: Jakie główne działanie farmakologiczne wykazują surowce śluzowe po podaniu doustnym?
+A: Działają osłaniająco na błony śluzowe żołądka oraz gardła, dzięki czemu znoszą uporczywy i suchy kaszel, a przyjmowane w całości, ze względu na dużą pojemność wodną, mogą stanowić łagodny i bezpieczny lek przeczyszczający.
+
+Q: Z jakiej rośliny pozyskuje się kwas alginowy i w jakim celu się go stosuje?
+A: Kwas alginowy pozyskuje się ze śluzowatych plech morszczynu (*Fucus*). Znalazł on zastosowanie m.in. jako lek na refluks i nadkwaśność soku żołądkowego, z kolei jego bezwodne sole stosuje się zewnętrznie do okładów tamujących krwotoki.
+
+Q: Na czym polega prebiotyczne działanie inuliny pozyskiwanej np. z bulw słonecznika bulwiastego?
+A: Inulina nie ulega strawieniu przez enzymy w świetle jelita cienkiego, przechodzi do jelita grubego, gdzie staje się naturalną pożywką warunkującą wzrost i żywotność "dobrych" bakterii z rodziny *Bifidobacterium*.
+
+Q: Jakie grupy związków czynnych występują w korzeniu żywokostu (*Symphyti radix*) i dlaczego w obecnej medycynie środek ten stosuje się wyłącznie na skórę?
+A: Korzeń żywokostu to obfite źródło śluzu i ułatwiającej gojenie kości alantoiny. Zawiera jednak szkodliwe alkaloidy pirolizydynowe, które po wypiciu i zmetabolizowaniu wykazują wybitnie niszczące oraz rakotwórcze działanie na ludzką wątrobę.
+
+Q: Dlaczego przy stosowaniu nasion lnu (*Lini semen*) nie dochodzi do zagrażających zatruć cyjankami uwalnianymi z glikozydów cyjanogennych (np. linamaryny)?
+A: Kwaśne środowisko soku w żołądku u człowieka dezaktywuje w dużej mierze roślinny enzym hydrolizujący – linamarazę. Wyzwolona w ustroju, mniejsza ilość trującego cyjanowodoru jest w krótkim czasie bezpiecznie degradowana przez enzymy tkankowe (rodanazę) do form wolnych od toksyczności.
+
+Q: Jakie zastosowanie medyczne znalazły wyizolowane z grzybów wielkoowocnikowych glukany (np. lentinan)?
+A: Dzięki swoistej architekturze chemicznej glukany te potężnie wspierają oraz stymulują układ immunologiczny do aktywnej pracy, przez co są wdrażane jako nowoczesny czynnik wspomagający tradycyjne terapie przeciwnowotworowe.
+
+Q: Na czym polega specyficzny, śluzowo-błonnikowy mechanizm ułatwiania wypróżnień przez łupiny i nasiona babki płesznik (*Psyllii semen*)?
+A: Duże nagromadzenie kwaśnego śluzu w ich okrywach pozwala na masywne pochłanianie dostarczanej do organizmu wody. Niestrawione frakcje pęczniejąc, rozpychają mechanicznymi siłami jelita, dając silny sygnał dla wzmożenia perystaltyki ułatwiającej defekację.

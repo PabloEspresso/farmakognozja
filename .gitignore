@@ -1,0 +1,7 @@
+# Ignoruj duże pliki PDF
+*.pdf
+
+# Ignoruj pliki systemowe i tymczasowe
+Thumbs.db
+.DS_Store
+node_modules/
