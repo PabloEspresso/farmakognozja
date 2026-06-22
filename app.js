@@ -150,6 +150,19 @@ function selectChapter(chapterId) {
   // Wczytaj zakładki
   updateTabsUI();
   renderActiveTabContent();
+
+  // Na urządzeniach mobilnych automatycznie zwiń spis treści po wyborze rozdziału
+  if (window.innerWidth <= 768) {
+    const layout = document.querySelector(".app-layout");
+    if (layout && !layout.classList.contains("sidebar-collapsed")) {
+      layout.classList.add("sidebar-collapsed");
+      const sidebarToggle = document.getElementById("sidebar-toggle-btn");
+      if (sidebarToggle) {
+        sidebarToggle.classList.add("active");
+      }
+      localStorage.setItem("sidebar_collapsed", "true");
+    }
+  }
 }
 
 // Zmiana zakładki UI
@@ -557,6 +570,22 @@ function setupEventListeners() {
       const active = layout.classList.contains("sidebar-collapsed");
       sidebarToggle.classList.toggle("active", active);
       localStorage.setItem("sidebar_collapsed", active);
+    });
+  }
+
+  // Obsługa przycisku zamknięcia wewnątrz spisu treści (na mobile)
+  const sidebarCloseBtn = document.getElementById("sidebar-close-btn");
+  if (sidebarCloseBtn) {
+    sidebarCloseBtn.addEventListener("click", () => {
+      const layout = document.querySelector(".app-layout");
+      if (layout) {
+        layout.classList.add("sidebar-collapsed");
+        const sidebarToggle = document.getElementById("sidebar-toggle-btn");
+        if (sidebarToggle) {
+          sidebarToggle.classList.add("active");
+        }
+        localStorage.setItem("sidebar_collapsed", "true");
+      }
     });
   }
 
