@@ -152,7 +152,7 @@ function selectChapter(chapterId) {
   renderActiveTabContent();
 
   // Na urządzeniach mobilnych automatycznie zwiń spis treści po wyborze rozdziału
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth <= 1024) {
     const layout = document.querySelector(".app-layout");
     if (layout && !layout.classList.contains("sidebar-collapsed")) {
       layout.classList.add("sidebar-collapsed");
