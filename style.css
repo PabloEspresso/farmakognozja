@@ -1059,6 +1059,8 @@ body.light-theme .header-tool-btn.eraser-btn.active {
    ========================================================================== */
 @media (max-width: 768px) {
   body {
+    height: auto;
+    min-height: 100vh;
     overflow-y: auto;
   }
   
@@ -1121,6 +1123,8 @@ body.light-theme .header-tool-btn.eraser-btn.active {
   .app-layout {
     flex-direction: column;
     overflow: visible;
+    flex: none;
+    height: auto;
   }
   
   .app-sidebar {
@@ -1179,11 +1183,33 @@ body.light-theme .header-tool-btn.eraser-btn.active {
   }
   
   .app-content {
+    flex: none;
+    height: auto;
     overflow: visible;
   }
   
+  .welcome-view {
+    padding: 30px 20px;
+  }
+  
+  .welcome-view h1 {
+    font-size: 1.6rem;
+  }
+
   .chapter-view {
     padding: 20px;
+  }
+
+  .chapter-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  #mark-read-btn {
+    width: 100%;
+    justify-content: center;
   }
   
   .tabs-nav {
@@ -1195,6 +1221,42 @@ body.light-theme .header-tool-btn.eraser-btn.active {
   .tab-btn {
     padding: 10px 14px;
     font-size: 0.85rem;
+  }
+
+  /* Poprawki Fiszek na Mobile */
+  .flashcard-container {
+    height: 385px; /* Zwiększona wysokość, aby pomieścić długie odpowiedzi */
+  }
+
+  .flashcard-face {
+    padding: 20px 16px; /* Mniejszy padding */
+  }
+
+  .flashcard-tag {
+    margin-bottom: 12px;
+  }
+
+  .flashcard-text {
+    font-size: 0.95rem; /* Mniejsza czcionka dla długiego tekstu */
+    line-height: 1.5;
+    overflow-y: auto; /* Przewijanie wewnątrz karty, jeśli tekst jest ekstremalnie długi */
+    width: 100%;
+    display: block; /* Zmiana z flex, aby scroll działał prawidłowo od góry */
+    text-align: left; /* Zwiększa czytelność dłuższych tekstów */
+  }
+
+  .flashcard-hint {
+    margin-top: 12px;
+  }
+
+  /* Poprawki Quizu na Mobile */
+  .quiz-container {
+    padding: 20px 16px;
+  }
+
+  .quiz-answer-btn {
+    padding: 12px 14px;
+    font-size: 0.9rem;
   }
 
   /* Wyłączamy dymek popovera na mobile, ponieważ mamy dolny przyklejony pasek narzędzi */
