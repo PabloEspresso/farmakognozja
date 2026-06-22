@@ -864,6 +864,11 @@ body.light-theme .header-tool-btn.eraser-btn.active {
   overflow-y: auto;
 }
 
+.flashcard-text em,
+.flashcard-text strong {
+  display: inline !important;
+}
+
 .flashcard-hint {
   font-size: 0.75rem;
   color: var(--text-muted);
