@@ -1222,6 +1222,14 @@ body.light-theme .header-tool-btn.eraser-btn.active {
     font-size: 0.85rem;
   }
 
+  /* Wyłączenie animacji na mobile w celu uniknięcia błędów renderowania w Safari */
+  .tab-pane.active {
+    display: block !important;
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
   /* Poprawki Fiszek na Mobile */
   .flashcard-container {
     height: 385px; /* Zwiększona wysokość, aby pomieścić długie odpowiedzi */
