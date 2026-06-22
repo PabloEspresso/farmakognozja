@@ -191,7 +191,7 @@ function renderActiveTabContent() {
     const savedSignature = localStorage.getItem(`highlights_${activeChapterId}_summary_signature`);
     const currentSignature = chapter.summary;
 
-    if (saved && savedSignature === currentSignature) {
+    if (saved && savedSignature === currentSignature && saved.length > currentSignature.length * 0.5) {
       document.getElementById("summary-article").innerHTML = saved;
     } else {
       document.getElementById("summary-article").innerHTML = chapter.summary;
@@ -203,7 +203,7 @@ function renderActiveTabContent() {
     const savedSignature = localStorage.getItem(`highlights_${activeChapterId}_concepts_signature`);
     const currentSignature = chapter.concepts.map(c => c.term).join('|') + '::' + chapter.concepts.map(c => c.definition.length).join('|');
 
-    if (saved && savedSignature === currentSignature) {
+    if (saved && savedSignature === currentSignature && saved.length > 100) {
       document.getElementById("concepts-grid").innerHTML = saved;
     } else {
       renderConcepts(chapter);
