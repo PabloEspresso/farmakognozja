@@ -110,3 +110,244 @@ A: Dzięki swoistej architekturze chemicznej glukany te potężnie wspierają or
 
 Q: Na czym polega specyficzny, śluzowo-błonnikowy mechanizm ułatwiania wypróżnień przez łupiny i nasiona babki płesznik (*Psyllii semen*)?
 A: Duże nagromadzenie kwaśnego śluzu w ich okrywach pozwala na masywne pochłanianie dostarczanej do organizmu wody. Niestrawione frakcje pęczniejąc, rozpychają mechanicznymi siłami jelita, dając silny sygnał dla wzmożenia perystaltyki ułatwiającej defekację.
+
+Oto kolejna, bardzo obszerna część szczegółowego kompendium, obejmująca następne duże działy z Twojej listy (Tłuszcze, woski i fitosterole; Kwasy organiczne, witaminy i sole mineralne; Fenolokwasy, glikozydy fenolowe i lignany oraz Garbniki). 
+
+Ze względu na wymóg zachowania ogromnej szczegółowości (oraz limit znaków w jednej odpowiedzi), opracowałem 4 potężne działy. Aby uzyskać kolejne (olejki eteryczne, flawonoidy, itd.), wystarczy, że napiszesz "kontynuuj".
+
+[Tłuszcze, woski i fitosterole]
+
+Podsumowanie
+
+Lipidy to grupa związków lipofilnych, w skład których wchodzą tłuszcze (estry glicerolu i kwasów tłuszczowych) oraz woski (estry wyższych kwasów i alkoholi). W farmakognozji ogromne znaczenie mają oleje roślinne pozyskiwane przez tłoczenie, bogate w niezbędne nienasycone kwasy tłuszczowe (NNKT) takie jak kwas linolowy czy linolenowy, które są niezbędne do syntezy błon komórkowych i eikozanoidów. Ponadto niezwykle cenną terapeutycznie podgrupą są surowce zawierające fitosterole (np. beta-sitosterol) oraz nienasycone kwasy tłuszczowe we frakcjach lipofilnych. Surowce fitosterolowe wykazują udowodnione działanie w hamowaniu enzymu 5-alfa-reduktazy, co zapobiega przekształcaniu testosteronu w dihydrotestosteron (DHT), stanowiąc w medycynie podstawę leczenia I i II stadium łagodnego rozrostu stercza (BPH). 
+
+Pojęcia kluczowe
+
+[Olej kakaowy (Masło kakaowe)]: Surowiec stanowiący wytłaczany na ciepło olej z jąder nasiennych kakaowca właściwego (*Theobroma cacao*, rodzina orzesznikowate / *Sterculiaceae*). Głównymi składnikami fitochemicznymi są triacyloglicerole kwasu oleinowego, stearynowego oraz palmitynowego. Olej ten, z racji odpowiedniej temperatury topnienia, jest powszechnie stosowany w technologii postaci leku jako podłoże do czopków, maści oraz kremów.
+
+[Olej rycynowy]: Olej otrzymywany z nasion rącznika pospolitego (*Ricinus communis*, rodzina wilczomleczowate / *Euphorbiaceae*). W jego skład wchodzą głównie estry glicerolu z kwasem rycynolowym. Działa jako silny środek przeczyszczający (laxans) - po uwolnieniu kwasu rycynolowego pod wpływem żółci i lipazy w jelicie cienkim, silnie drażni jego ściany, upłynniając treść i zmuszając do wypróżnienia. Zewnętrznie jest składnikiem maści gojących.
+
+[Olej sojowy]: Olej pozyskiwany z nasion soi jadalnej (*Glycine soja*, rodzina bobowate / *Fabaceae*). Zawiera znaczne ilości kwasu linolowego (ok. 50%), kwasu oleinowego, linolenowego, a także fitosterole (beta-sitosterol) i tokoferole. Służy przemysłowo do pozyskiwania lecytyny sojowej, która jest stosowana w hipercholesterolemii oraz w profilaktyce miażdżycy naczyń (antiscleroticum).
+
+[Olej lniany]: Olej wytłaczany z nasion lnu zwyczajnego (*Linum usitatissimum*, rodzina lnowate / *Linaceae*). Charakteryzuje się ogromną zawartością kwasu linolenowego (35-50%) oraz linolowego i oleinowego. Posiada wybitne właściwości osłaniające śluzówkę żołądka, obniża poziom cholesterolu, a stosowany zewnętrznie (jako dermaticum) doskonale regeneruje skórę, m.in. w oparzeniach i odleżynach.
+
+[Olej z owoców awokado]: Olej tłoczony z owocni smaczliwki właściwej (*Persaea americana*, rodzina wawrzynowate / *Lauraceae*). Stanowi rezerwuar kwasu oleinowego, tokoferoli oraz frakcji niezmydlającej się, bogatej w fitosterole (beta-sitosterol, kampesterol). Frakcja ta wspólnie z fitosterolami soi wchodzi w skład leków na zwyrodnieniowe uszkodzenia chrząstki stawowej (antirheumaticum).
+
+[Olej wiesiołkowy]: Olej z nasion wiesiołka dziwnego lub dwuletniego (*Oenothera paradoxa/biennis*, rodzina wiesiołkowate / *Oenotheraceae*). Skład opiera się na niezbędnych nienasyconych kwasach tłuszczowych, z wymaganiem min. 9% kwasu gamma-linolenowego i wysoką zawartością kwasu linolowego. Znalazł ogromne zastosowanie w uzupełnianiu niedoborów NNKT (metabolicum) i wspieraniu profilaktyki antymiażdżycowej.
+
+[Olej z nasion ogórecznika]: Olej tłoczony z nasion ogórecznika lekarskiego (*Borago officinalis*, rodzina ogórecznikowate / *Boraginaceae*). Skład fitochemiczny opiera się na wybitnie dużej koncentracji kwasu gamma-linolenowego (18-25%) i kwasu linolowego. Stosowany identycznie jak olej wiesiołkowy w stabilizacji procesów metabolicznych organizmu i chorobach skóry.
+
+[Olej z zarodków pszenicy]: Olej z zarodków pszenicy zwyczajnej (*Triticum vulgare*, rodzina wiechlinowate / *Poaceae*). Bardzo bogaty w kwas linolowy i alfa-tokoferol (witamina E). Stosowany przy niedoborach NNKT i witaminy E, wspomagająco przy osłabieniu organizmu, miażdżycy oraz zewnętrznie na uszkodzenia oparzeniowe i odmrożenia skóry.
+
+[Owoc palmy sabal (Bocznia piłkowana)]: Surowiec lipofilny z owoców palmy sabalowej (*Serenoa repens*, rodzina arekowate / *Arecaceae*). Skład opiera się na wolnych kwasach tłuszczowych, ich estrach etylowych oraz fitosterolach (beta-sitosterol, kampesterol). Działanie antymitotyczne i blokujące 5-alfa-reduktazę sprawia, że łagodzi dolegliwości układu moczowego spowodowane łagodnym rozrostem stercza - BPH (antiprostaticum).
+
+[Nasienie i olej z nasion dyni]: Surowiec z nasion dyni zwyczajnej (*Cucurbita pepo*, rodzina dyniowate / *Cucurbitaceae*). Olej ten gromadzi cenne fitosterole (szczególnie delta-7-sterole, np. alfa-spinasterol), skwalen, cynk i selen, a w nasionach występuje przeciwrobaczy aminokwas - kukurbityna. Znalazł zastosowanie urologiczne w zaburzeniach oddawania moczu i przeroście prostaty (antiprostaticum) oraz do zwalczania tasiemców w świetle jelit.
+
+[Znamiona i olej z zarodków kukurydzy]: Surowiec z kukurydzy zwyczajnej (*Zea mays*, rodzina wiechlinowate / *Poaceae*). Znamiona bogate są w sole potasu stymulujące silną diurezę, z kolei olej z zarodków gromadzi kwas linolowy i cenne fitosterole (beta-sitosterol). Znamiona stosuje się w kamicy nerkowej i obrzękach, a olej w leczeniu objawów łagodnego rozrostu stercza (antiprostaticum).
+
+[Kora śliwy afrykańskiej]: Kora pozyskiwana z drzewa śliwy afrykańskiej (*Prunus africana*, rodzina różowate / *Rosaceae*). Wyciągi lipofilne z kory zawierają linearne alkohole alifatyczne (dokosanol) oraz wolny i związany beta-sitosterol, a także kwasy ursolowy i oleanolowy. Działają silnie przeciwzapalnie na gruczoł krokowy, regenerują i rozkurczają drogi moczowe. Stosuje się je powszechnie w stanach I i II rozrostu prostaty.
+
+[Korzeń pokrzywy]: Organy podziemne pokrzywy zwyczajnej i żegawki (*Urtica dioica / Urtica urens*, rodzina pokrzywowate / *Urticaceae*). Zawierają specyficzne kwasy tłuszczowe, fitosterole (daukosterol, beta-sitosterol), lektyny (UDA) i ceramidy. Hamują aromatazę i zmniejszają namnażanie tkanki prostaty. Surowiec podawany doustnie łagodzi zaburzenia w oddawaniu moczu, spowodowane przerostem gruczołu krokowego (antiprostaticum) oraz działa moczopędnie.
+
+## Fiszki Q&A
+Q: Jaki mechanizm fizjologiczny tłumaczy przeczyszczające działanie kwasu rycynolowego z oleju rycynowego?
+A: Olej rycynowy ulega w jelicie cienkim hydrolizie pod wpływem żółci i lipazy; uwolniony kwas rycynolowy drażni ściany jelita, powodując płynne i intensywne wypróżnienie w ciągu 4-6 godzin.
+
+Q: Jaką podwójną korzyść medyczną przynosi stosowanie nasion soi jadalnej w ujęciu lipofilnym?
+A: Olej sojowy dostarcza niezwykle cennych niezbędnych nienasyconych kwasów tłuszczowych (NNKT), a otrzymywana z niego lecytyna działa osłonowo na serce, zwalczając hipercholesterolemię i miażdżycę.
+
+Q: Dlaczego lipofilne wyciągi z owoców palmy sabal są tak skuteczne w leczeniu rozrostu prostaty (BPH)?
+A: Dzięki zawartości fitosteroli (np. beta-sitosterolu) wyciągi te wysoce specyficznie hamują działanie enzymu 5-alfa-reduktazy, blokując groźną konwersję testosteronu do dihydrotestosteronu (DHT) w sterczu.
+
+Q: Jaki aminokwas obecny w nasionach dyni (*Cucurbita pepo*) ma udokumentowane działanie przeciwpasożytnicze?
+A: W nasionach dyni zlokalizowana jest kukurbityna, nietypowy aminokwas uszkadzający układ nerwowy tasiemców, pozwalając na ich mechaniczne wydalenie z jelit.
+
+Q: Jakie kwasy wyizolowane z oleju wiesiołkowego warunkują jego zastosowanie w profilaktyce miażdżycy?
+A: Zasadnicze znaczenie ma ogromna ilość kwasu linolowego oraz minimum 9% kwasu gamma-linolenowego, warunkujących naprawę barier komórkowych organizmu.
+
+Q: Jakie związki oprócz fitosteroli czynią korę śliwy afrykańskiej wybitnym lekiem urologicznym?
+A: Kora ta, oprócz steroli, obfituje w linearne alkohole alifatyczne (dokosanol i tetrakosanol) połączone z kwasem ferulowym, redukujące obrzęki i hamujące rozrost fibroblastów gruczołu.
+
+Q: Skąd dokładnie pobiera się surowiec kukurydziany (*Maydis stigma*) o działaniu moczopędnym?
+A: Surowcem tym są znamiona słupków wyciągnięte z żeńskich kwiatostanów kukurydzy, które przed wysuszeniem przypominają długie, jedwabiste, żółte nici.
+
+Q: Z czego wynika szerokie wykorzystywanie oleju kakaowego w postaciach leków takich jak czopki?
+A: Olej kakaowy zbudowany z symetrycznych triacylogliceroli ma odpowiednią temperaturę topnienia - jest stały w temperaturze pokojowej, ale mięknie i roztapia się idealnie w temperaturze ludzkiego ciała.
+
+Q: Dlaczego korzeń pokrzywy ma inne wskazania medyczne niż jej ziele i liście?
+A: Korzeń bogaty jest w lektyny (UDA) i specyficzne fitosterole, które działają celowanie na przerost gruczołu krokowego (BPH), podczas gdy liście to typowy lek diuretyczny.
+
+Q: Na co należy uważać, stosując preparaty o wysokiej zawartości kwasu rycynolowego u kobiet?
+A: Silne skurcze jelit wywołane przez olej rycynowy mogą przenieść się na sąsiadującą mięśniówkę narządów miednicy mniejszej, dlatego środek ten jest ściśle przeciwwskazany w okresie ciąży.
+
+
+[Kwasy organiczne, witaminy, związki mineralne]
+
+Podsumowanie
+
+Kwasy organiczne (alifatyczne, dikarboksylowe i aromatyczne) stanowią naturalne składniki tkanek roślinnych, bardzo często warunkując kwaśny smak owoców lub biorąc udział w naturalnych mechanizmach obronnych (np. kwas mrówkowy pokrzywy). Witaminy roślinne (przede wszystkim gigantyczne zasoby witaminy C, ale również witamin A, K, E) stanowią naturalną linię obrony przed szkorbutem, spadkiem odporności i utlenianiem, natomiast roślinne związki mineralne (w pełni przyswajalne sole potasu, krzemu, cynku czy selenu) regulują diurezę i homeostazę wodno-elektrolitową pacjenta. Leki z tej grupy mają typowy profil witaminizujący (uzupełniający diety), napotny w gorączce i silnie przeciwzapalny.
+
+Pojęcia kluczowe
+
+[Owoc maliny]: Owoce pozyskiwane z maliny właściwej (*Rubus idaeus*, rodzina różowate / *Rosaceae*). Głównymi składnikami są kwasy organiczne (cytrynowy, jabłkowy), wysoka zawartość witamin (C, E, z grupy B) oraz pektyny i antocyjany. Tradycyjny i wysoce skuteczny środek napotny, który poprzez stymulację gruczołów potowych silnie i bezpiecznie obniża gorączkę w infekcjach bakteryjnych i wirusowych (antipyreticum).
+
+[Owoc róży (Owoc szypszyny)]: Owoce rzekome (szupinkowe) dzikiej róży (*Rosa canina*, rodzina różowate / *Rosaceae*). Surowiec jest potężnym magazynem naturalnej witaminy C (kwas L-askorbowy do 1,7%) wspieranym przez karotenoidy (likopen), flawonoidy, pektyny i przeciwzapalny galaktolipid (GOPO). Stosowany jest przy hipowitaminozach, uszczelnianiu kruchych ścian naczyń włosowatych oraz jako środek poprawiający elastyczność chrząstki stawowej (vitaminum, antiphlogisticum).
+
+[Liść i ziele pokrzywy]: Nadziemne organy pokrzywy zwyczajnej (*Urtica dioica*, rodzina pokrzywowate / *Urticaceae*). Charakteryzują się ekstremalnie wysoką gęstością mineralną (nawet do 18% soli magnezu, wapnia, potasu oraz ogromnej ilości rozpuszczalnej krzemionki) i witamin (K, C, B). Działa silnie moczopędnie w terapii płuczącej (diureticum), oczyszczając organizm ze szkodliwych metabolitów w dnie moczanowej oraz reumatyzmie, dodatkowo zwiększając poziom czerwonych krwinek (chlorofil i żelazo).
+
+## Fiszki Q&A
+Q: Jaka grupa związków w owocu dzikiej róży odpowiada za jej czerwono-pomarańczowe zabarwienie?
+A: Za intensywną barwę odpowiadają przeciwutleniające karotenoidy, głównie beta-karoten oraz likopen.
+
+Q: Na czym opiera się mechanizm obniżania gorączki po wypiciu odwaru lub soku z owoców maliny?
+A: Związki zawarte w owocach maliny działają ośrodkowo i obwodowo, stymulując gruczoły potowe do silnego wydzielania potu, którego parowanie mechanicznie chłodzi powierzchnię ciała.
+
+Q: Jaką postać ma wyjątkowo duża ilość wapnia odkładana w tkankach pokrzywy zwyczajnej?
+A: W węglanowych komórkach pokrzywy (cystolitach) znajduje się krystaliczny węglan wapnia.
+
+Q: Dlaczego ziele pokrzywy (*Urticae herba*) uznawane jest za bardzo bezpieczny i wydajny lek moczopędny?
+A: Zawiera ogromną ilość (do 18%) rozpuszczalnych soli mineralnych – w tym korzystny stosunek soli potasu do sodu – co pobudza kanaliki nerkowe do filtracji bez zubażania organizmu z kluczowych elektrolitów.
+
+Q: Co to jest GOPO, odnaleziony stosunkowo niedawno w owocach dzikiej róży?
+A: Jest to unikalny galaktolipid uwięziony we właściwych "orzeszkach" róży, wykazujący świetnie udokumentowane, silne kliniczne działanie przeciwzapalne w reumatologii.
+
+Q: Jaką witaminę cenną dla procesów krzepnięcia krwi zawiera w dużej ilości ziele pokrzywy?
+A: Pokrzywa to obfite źródło witaminy K (K1, filochinonu), która stymuluje produkcję czynników krzepnięcia krwi i posiada cenne właściwości przeciwkrwotoczne.
+
+Q: Jaką funkcję farmakologiczną, poza byciem diuretykiem, ma pokrzywa stosowana do nacierań i szamponów?
+A: Rozpuszczalne związki krzemu w pokrzywie silnie regenerują mieszki włosowe, obniżają produkcję łoju (dermaticum) i powstrzymują patologiczne wypadanie włosów.
+
+Q: W jaki sposób zaleca się obecnie obrabiać owoce róży dla celów leczniczych, aby nie niszczyć witaminy C?
+A: Surowiec musi być stabilizowany – owoce zbierane przed pełnym dojrzeniem (zanim zwiotczeją) powinny być suszone stosunkowo sprawnie w 50°C, co szybko neutralizuje enzym kwasu askorbowego.
+
+Q: Co w anatomii pokrzywy jest przyczyną popularnego oparzenia po kontakcie ze skórą?
+A: Roślina wytwarza jednokomórkowe, kruche włoski główkowe (tzw. włoski parzące), z których po odłamaniu główki pod ciśnieniem wstrzykiwany jest kwas mrówkowy, histamina i acetylocholina.
+
+Q: Z jakim ważnym mikroelementem, niezbędnym dla tarczycy, często kojarzymy mineralne suplementy z roślin (oprócz krasnorostów)?
+A: Suplementy te, jak wyciągi z dyni i czosnku, są częstym naturalnym nośnikiem rzadkiego na lądzie selenu (Se) lub soli krzemu.
+
+
+[Fenolokwasy, glikozydy fenolowe, lignany]
+
+Podsumowanie
+
+Związki fenolowe stanowią jedną z najpotężniejszych grup naturalnych leków. Obejmują one proste fenole połączone z cukrami (glukozydy fenolowe, np. salicyna z wierzby, arbutyna z mącznicy) oraz zróżnicowane fenolokwasy (np. kwas rozmarynowy czy chlorogenowy) i ich dimery zwane lignanami. Surowce te wykazują wybitne, zróżnicowane działanie kliniczne. Kora wierzby to naturalny prekursor kwasu salicylowego (zastosowanie przeciwbólowe i przeciwgorączkowe), arbutyna z mącznicy stanowi nadrzędny, naturalny środek antyseptyczny potężnie odkażający drogi moczowe. Z kolei polifenole z jeżówki (kwas cykoriowy) i eleuterokoka silnie stymulują procesy odpornościowe (immunostymulacyjne i adaptogenne) poprzez namnażanie białych krwinek i aktywację mechanizmów pożerania (fagocytozy) bakterii.
+
+Pojęcia kluczowe
+
+[Kora wierzby]: Surowiec zbierany wczesną wiosną z młodych pędów wierzby białej i purpurowej (*Salix alba/purpurea*, rodzina wierzbowate / *Salicaceae*). Posiada duże ilości glukozydów fenolowych, szczególnie salicyny (oraz jej pochodnych: salikortyny, fragiliny). Salicyna ulega w jelitach redukcji i powolnemu utlenieniu do kwasu salicylowego, który działa przeciwbólowo, wybitnie przeciwgorączkowo i przeciwzapalnie w reumatyzmie (antipyreticum, antirheumaticum).
+
+[Liść i pączek topoli]: Surowce pozyskiwane z drzew topoli czarnej (*Populus nigra*, rodzina wierzbowate / *Salicaceae*). Zawierają glukozydy fenolowe (salicyna, populina) sprzężone z kwasem kawowym oraz lepkie żywice i flawonoidy w pąkach. Wykazują identyczne jak wierzba działanie przeciwbólowe (antipyreticum), a lepkie wyciągi z pączków doskonale leczą i zamykają owrzodzenia, rany hemoroidalne (antihaemorrhoidales).
+
+[Kwiat wiązówki (Kwiat tawuły)]: Drobne kwiatostany wiązówki błotnej (*Filipendula ulmaria*, rodzina różowate / *Rosaceae*). Magazynują pochodne kwasu salicylowego (spireina, monotropitozyd) i wielkie stężenia flawonoidów (spireozyd). Wybitny lek napotny o silnym profilu przeciwbólowym, stosowany tradycyjnie w dreszczach i przeziębieniach do "wypocenia" i zbicia gorączki (antipyreticum).
+
+[Liść mącznicy]: Skórzaste liście z krzewinki mącznicy lekarskiej (*Arctostaphylos uva ursi*, rodzina wrzosowate / *Ericaceae*). Główne związki czynne to glukozydy fenolowe, przede wszystkim arbutyna. W środowisku alkalicznym moczu, arbutyna uwalnia silnie bakteriobójczy i antyseptyczny hydrochinon. Jest to lek z wyboru do leczenia infekcji zapalnych bakteryjnych pęcherza moczowego i nerek (urodesinficiens).
+
+[Liść borówki brusznicy]: Liście krzewinki borówki brusznicy (*Vaccinium vitis idaea*, rodzina wrzosowate / *Ericaceae*). Zawierają, w bardzo zbliżonych proporcjach do mącznicy, arbutynę oraz dodatkowo 6-acetyloarbutynę (pirozyd) wspieraną triterpenami (kwas ursolowy). Stosowany zamiennie z liściem mącznicy jako bezpieczny preparat niszczący florę bakteryjną i wypłukujący piasek z układu moczowego (urodesinficiens).
+
+[Ziele i kwiat wrzosu]: Rozkwitające pędy wrzosu zwyczajnego (*Calluna vulgaris*, rodzina wrzosowate / *Ericaceae*). Obok flawonoidów posiadają udokumentowane zawartości arbutyny i garbników. Działają silnie przeciwzapalnie na nabłonki, zmuszając nerki do wzmożonej produkcji i wydalania moczu, zapobiegając uwięźnięciu flory bakteryjnej w moczowodach (diureticum et urodesinficiens).
+
+[Liść i ziele karczocha]: Gorzkie w smaku organy nadziemne karczocha zwyczajnego (*Cynara scolymus*, rodzina astrowate / *Asteraceae*). Posiadają unikatowe nagromadzenie kwasów fenolowych, gdzie głównym farmakologicznie ciałem czynnym jest cynaryna (kwas 1,5-dikawoilochinowy). Wyciągi z karczocha pobudzają wybiórczo pęcherzyk żółciowy, działają potężnie żółciotwórczo (cholagogum) oraz obniżają produkcję cholesterolu w wątrobie (antiscleroticum).
+
+[Ziele i korzeń jeżówki]: Surowce z amerykańskich bylin - jeżówki purpurowej, wąskolistnej i bladej (*Echinacea purpurea/angustifolia/pallida*, rodzina astrowate / *Asteraceae*). Najaktywniejsze są tutaj alkamidy i potężne kwasy fenolowe, m.in. kwas cykoriowy i echinakozyd. Kwas cykoriowy dosłownie stymuluje produkcję ludzkiego interferonu i aktywuje białe krwinki do szybkiego niszczenia wirusów. Stosowane masowo w stanach obniżonej odporności i zagrażających infekcjach (immunostimulantia).
+
+[Korzeń eleuterokoka (Żeń-szeń syberyjski)]: Organy podziemne eleuterokoka kolczastego (*Eleutherococcus senticosus*, rodzina araliowate / *Araliaceae*). Kłącza są bogate w fenylopropanoidy proste (syryngina) oraz skondensowane w dimery lignany (eleuterozyd D i E). Wyciągi tonizują układ nerwowy ludzkiego organizmu i przywracają fizjologiczną wydolność układu krążenia przy potężnym fizycznym i psychicznym wyczerpaniu (adaptogen, tonicum).
+
+## Fiszki Q&A
+Q: W jakim środowisku (pH) w drogach moczowych aktywuje się arbutyna z liści mącznicy (*Uvae ursi folium*)?
+A: Arbutyna hydrolizuje i uwalnia antyseptyczny hydrochinon najefektywniej w środowisku alkalicznym moczu (pH około 8), co czasami wymaga zmiany diety podczas kuracji (dieta roślinna).
+
+Q: Na czym polega przewaga farmakokinetyczna kory wierzby nad popularną w tabletkach syntetyczną aspiryną?
+A: Salicyna z kory wierzby nie drażni czynnie śluzówki żołądka, gdyż utlenia się do żrącego dla wrzodów kwasu salicylowego dopiero we krwi, po wchłonięciu z jelit.
+
+Q: Jaką podwójną funkcję pełnią związki polifenolowe wyizolowane z ziela i liści karczocha?
+A: Cynaryna (kwas dikawoilochinowy) pobudza wątrobę do wzmożonej rzutu lepkiej żółci (ułatwiając trawienie ciężkich tłuszczów) i aktywnie obniża poziom krążącego, niebezpiecznego cholesterolu we krwi.
+
+Q: Co to jest tzw. "Garbnik Labiatae" i jakie kwasy wchodzą w jego skład?
+A: Pod pojęciem Garbnika Labiatae kryje się wybitnie cenny dla rodziny Jasnotowatych silnie antybakteryjny kwas rozmarynowy (będący specyficznym estrem kwasu kawowego).
+
+Q: Z jakiego głównego biochemicznego powodu korzenie *Echinacea purpurea* są masowo sprzedawane w aptekach jesienią?
+A: Są one naturalnym i niezwykle szybkim stymulatorem (dzięki echinakozydowi i kwasowi cykoriowemu) aktywującym produkcję białych krwinek pochłaniających wtargnięte wirusy i bakterie grypowe.
+
+Q: Wymień trzy glukozydy fenolowe typowe dla wyciągów z wierzby oraz topoli.
+A: Są to bazowa salicyna, salikortyna oraz populina (6-O-benzoiloglukozyd saligeniny w pąkach topoli).
+
+Q: Czy eleuterozydy syberyjskiego żeń-szenia (Eleutherococcus) zaliczamy do klasycznych alkaloidów uspokajających?
+A: Nie, eleuterozydy B, D, E to nic innego jak naturalne pochodne wielkocząsteczkowych fenylopropanoidów (lignanów), działające na organizm tonizująco (pobudzająco, wspierając fizycznie jako adaptogen).
+
+Q: Dlaczego podczas suszenia świeżych liści mącznicy stosuje się niekiedy gorące powietrze?
+A: Należy szybko unieczynnić naturalne enzymy roślinne, tak by cenne glukozydy fenolowe (arbutyna) nie rozpadły się na hydrochinon już na etapie produkcji surowca farmaceutycznego.
+
+Q: Czym chemicznie różnią się kwasy fenolowe, takie jak kwas kawowy, od np. kwasu octowego czy mrówkowego?
+A: Kwasy fenolowe (często C6-C1 i C6-C3) wywodzą się bezpośrednio od pierścienia aromatycznego (kwasu benzoesowego lub cynamonowego) podstawionego silnie czynnymi biologicznie grupami hydroksylowymi.
+
+Q: Do jakich celów (według zaleceń m.in. dla surowców śluzowych) można użyć pączków topoli w rektologii?
+A: Pączki topoli obfitujące w salicynę i żywice ściągające rewelacyjnie wstrzymują ból i zapalenie wysuniętych, krwawiących żylaków odbytu (antihaemorrhoidales).
+
+
+[Garbniki]
+
+Podsumowanie
+
+Garbniki (taniny) to fascynujące bezazotowe wielkocząsteczkowe związki polifenolowe (o masie cząsteczkowej 500-3000), które natura wymyśliła głównie jako chemiczne bariery obronne dla roślin. Dzielimy je klasycznie na garbniki hydrolizujące (zbudowane z kwasu galusowego i elagowego, mogące rozpadać się w roztworach) oraz garbniki skondensowane (niehydrolizujące, oparte na polimeryzacji katechiny i epikatechiny, jak chociażby cenne proantocyjanidyny). Główną właściwością chemiczną tanin jest nieodwracalne ścinanie (koagulacja) obcych białek. Pociąga to za sobą genialne właściwości lecznicze – po naniesieniu na śluzówki i rany wytwarzają gęsty strup z białek tkankowych, hamujący mikro-krwotoki i wstrzymujący penetrację bakterii i grzybów wgłąb komórek. Podawane doustnie ściągają obrzmiałe jelita w ciężkich biegunkach i uszczelniają sieć kruchych, popękanych kapilar.
+
+Pojęcia kluczowe
+
+[Dębianka (Galasy dębowe)]: Patologiczna, obronna narośl wytwarzana na młodych pąkach dębu galasowego (*Quercus infectoria*, rodzina bukowate / *Fagaceae*) przez rozwój owada - galasownika. Zawiera monstrualne, bo rzędu 50-70% objętości, stężenie czystych garbników hydrolizujących (kwas taninowy). Służy w farmacji do pozyskiwania czystej farmakopealnej taniny i płynów wybitnie i mocno ściągających zranienia oraz silnie potliwe dłonie i stopy.
+
+[Kora dębu]: Klasyczna, rurkowata kora łuskana wiosną z gałęzi dębu szypułkowego lub bezszypułkowego (*Quercus robur/sessilis*, rodzina bukowate / *Fagaceae*). Skład to mieszanka katechin, garbników katechinowych i kwasu elagowego z galusowym. Standard w dermatologii jako środek ściągający tkanki przy okładach na upławy, odparzenia pochwy, krwawienia hemoroidalne oraz ciężkie i śluzowate biegunki (antidiarrhoicum).
+
+[Kłącze wężownika]: Grube, skręcone podziemne pędy rdestu wężownika (*Polygonum bistorta*, rodzina rdestowate / *Polygonaceae*). Wewnątrz miąższu ukrytych jest około 15-20% galotanoidów i garbników katechinowych. Równocześnie w wężowniku pęcznieje skrobia. Stanowi lek wybitnie ściągający i hemostatyczny; po wypiciu szybko odcina uszkodzone kosmki jelit od drażniących kwasów w czasie rozwolnienia.
+
+[Kłącze pięciornika (Kurze ziele)]: Grube, mocno czerwone na przełamie kłącze pięciornika kurze ziele (*Potentilla erecta*, rodzina różowate / *Rosaceae*). Potężne rezerwy proantocyjanidyn i elagotanoidu (agrimoniny) z towarzystwem triterpenów (kwas tormentilowy). Najbardziej kultowy naturalny stoper biegunek, obrzęków i ropnej anginy gardła – odwary powodują szybkie i masowe wiązanie wirusów (antidiarrhoicum, haemostaticum).
+
+[Liść orzecha włoskiego]: Aromatyczne liście pozyskiwane z drzewa orzecha włoskiego (*Juglans regia*, rodzina orzechowate / *Juglandaceae*). Unikatowy surowiec, bowiem w towarzystwie klasycznych elagotanoidów występuje naftochinon (juglon), który odpowiada za proces utleniania i barwienia skóry. Odwary stosowane są tradycyjnie u nastolatków w nadmiernej potliwości stóp (antihydroticum) i niszczeniu drożdżaków i ropni bakteryjnych.
+
+[Liść i kora oczaru]: Kora w postaci rynienek lub liście z drzewiastego oczaru wirginijskiego (*Hamamelis virginiana*, rodzina oczarowate / *Hamamelidaceae*). Posiada wysoce cenne a- i b-hamamelitaniny. Fenomenalnie obkurcza małe, nieszczelne i kruche naczynia żylne na nogach; wyciąg z kory jest z wielkim sukcesem wcierany w żylaki odbytu oraz ciężkie obrzęki i sine wybroczyny pourazowe nóg (vasoprotectivum, antihaemorrhoidales).
+
+[Liść jeżyny]: Liście wycinane wiosną z kolczastych pędów jeżyny fałdowanej (*Rubus fruticosus*, rodzina różowate / *Rosaceae*). Typowy surowiec posiadający bezpieczne do 8% galotanoidy i kwasy organiczne. Używany pomocniczo pod postacią odwarów w łagodnych zakażeniach i nieżytach przewodu pokarmowego, zatruciach dzieci (antidiarrhoicum).
+
+[Liść maliny]: Liście krzewów maliny właściwej (*Rubus idaeus*, rodzina różowate / *Rosaceae*). Posiadają uboższe stężenia garbników i flawonoidów (rutozyd). Są bardzo łagodnym lekiem ściągającym, zalecanym jako bezpieczne zapierające do wewnątrz w czasie rozwolnienia małych dzieci oraz do pędzlowania bolesnych ran jamy ustnej (antidiarrhoicum).
+
+[Liść borówki czernicy]: Cienkie listki wyrastające na popularnych krzewinkach borówki czarnej (*Vaccinium myrtillus*, rodzina wrzosowate / *Ericaceae*). Gęsty i zbity pakiet garbników katechinowych (nawet do 20%) zmieszany z jonami chromu i fitozwiązkiem hipoglikemicznym zwanym neomyrtyliną. Powleka zranienia jelitowe potężnym strupem bakteryjnym i delikatnie zbija poposiłkową koncentrację glukozy w początkowej cukrzycy (antidiabeticum).
+
+[Ziele rzepiku]: Ulistnione pędy rzepiku pospolitego (*Agrimonia eupatoria*, rodzina różowate / *Rosaceae*). Połączenie garbników z bogatym i goryczowym olejkiem eterycznym. Odwary nie tylko tamują luźne wypróżnienia, ale jako jedne z nielicznych aktywnie oczyszczają zastoiny żółciowe wątroby ułatwiając trawienie ciężkiego pokarmu (cholagogum, antidiarrhoicum).
+
+[Ziele rdestu ostrogorzkiego]: Wierzchołki rdestu (*Polygonum hydropiper*, rodzina rdestowate / *Polygonaceae*). Obfituje w katechiny i potężną sieć flawonoidów (hiperozyd, persykaryna) oraz światłoczułe naftodiantrony. Lek typowo przeciwkrwotoczny (haemostaticum) - ściąga i redukuje obfite krwawienia dróg rodnych, przedłużające się w czasie gwałtownych menstruacji.
+
+[Ziele pięciornika gęsiego]: Srebrzyście owłosione liście pięciornika gęsiego (*Potentilla anserina*, rodzina różowate / *Rosaceae*). Kumulują elagotanoidy zmieszane z kumarynami i pseudosaponinami (tormentozyd). Kombinacja ta znakomicie redukuje uciski kurczowe macicy, skurcze jelit z okropnymi bólami połączonymi z ostrymi krwawieniami i stanami zakażenia śluzówek (spasmolyticum, antidiarrhoicum).
+
+## Fiszki Q&A
+Q: Jaka jest unikalna cecha garbników odróżniająca je od innych grup antyseptycznych i ściągających zjawisk w farmakognozji?
+A: Garbniki jako jedyne związki potrafią tworzyć chemicznie całkowicie nierozpuszczalne, stałe struktury (kompleksy) z białkami ludzkiej i zwierzęcej skóry lub z komórkami bakterii (denaturacja).
+
+Q: Dlaczego wyciągów z bogatej w galotanoidy kory dębu używa się u niemowląt chorych na wodniste biegunki z podziurawionymi kosmkami?
+A: Ponieważ napar powleka uszkodzoną śluzówkę dziecka wodoodpornym strupem białkowym i drastycznie zatrzymuje przepływ zapalnej wody z tkanki do światła biegunkowego jelita grubego.
+
+Q: Jaką przewagę mają w żylakach odbytu (hemoroidach) maści otrzymane z liścia i kory oczaru (*Hamamelidis folium/cortex*)?
+A: Frakcje specyficznych i rzadkich w świecie roślinnym hamamelitanin fenomenalnie zwężają popękane, napuchnięte patologicznie naczynia krwionośne redukując zapalne sączenie surowicy i krwi.
+
+Q: Jaka substancja izolowana z dębianki tureckiej podawana jest dojelitowo po chemicznym związaniu jej z białkiem i dlaczego tak się robi?
+A: Podaje się białczan taniny (Tanninum albuminatum) uodparniając w ten sposób śluzówkę żołądka na drażniące, mocno wżerające się w nią i bolesne w reakcji czyste garbniki.
+
+Q: Jak działa neomyrtylina odnaleziona w ścisłym towarzystwie garbników na liściach borówki czernicy (*Vaccinium myrtillus*)?
+A: Związek ten (tzw. naturalna glukokinina) posiada wysoce docenianą przez tradycyjną medycynę zdolność delikatnego obniżania nienormalnie wysokiego stężenia cukru we krwi zjedzonego po dużym posiłku.
+
+Q: Który ze żrących zakażenia flawonoidów (tzw. persykaryna) odgrywa dużą rolę wspomagającą w rdeście ostrogorzkim (*Polygonum hydropiper*)?
+A: Flawonoidy te w asyście garbników wyśmienicie odcinają utratę czerwonych krwinek, wywołując masowe uciskanie mięśni miednicy mniejszej (haemostaticum w obfitych miesiączkach i krwotokach ukrytych).
+
+Q: Jak nazywa się główna aktywna, potężnie zbudowana cząsteczka elagotanoidu z kłącza i liści pięciornika kurze ziele (*Potentilla erecta*)?
+A: Cząsteczka ta nosi unikalną w medycynie nazwę - agrimonina, silnie denaturująca florę wirusową wywołującą stany obrzękowe gardła.
+
+Q: Jaką uboczną funkcję (z powodów barwiących) ma juglon wyciągany wraz z garbnikami z dojrzałych liści orzecha włoskiego?
+A: Ponieważ juglon ma strukturę naftochinonu utleniającego się na silnie barwny polimer w zetknięciu z keratyną i tlenem, skutecznie i szybko farbuje wierzchnie warstwy naskórka zniszczonego grzybicą na głęboki brunatny kolor.
+
+Q: Który z powszechnych polskich owoców leśnych wydaje najkorzystniejsze i najskuteczniejsze napary "z liścia" uspokajające i kojące ból brzucha małego dziecka (łagodne i pozbawione toksyczności)?
+A: Są to napary wykonywane z bezpiecznych listków dzikiej maliny i słodkiej dzikiej jeżyny, z racji łagodnego spektrum kwasów.
+
+Q: Czy z dębianki (*Galla*) wykonuje się wyciągi do picia przy zaburzeniach trawiennych lub zaparciach?
+A: Absolutnie nie, monstrualna stężenie garbników (prawie 70% czystej, agresywnej taniny) jest stosowane współcześnie wyłącznie zewnętrznie w postaci zasypek pudrowych lub bardzo gęstych maści na ropnie dermatologiczne.
+
+
+---
+*Wygenerowałem powyższe, niezwykle rozbudowane i detaliczne cztery główne rozdziały zgodnie z Twoimi wymaganiami i formatem. Ze względu na ograniczenia maksymalnej długości pojedynczej wiadomości, pozostałe działy (od "Olejki eteryczne" aż po "Alkaloidy") zostały zaplanowane i przygotowane do wygenerowania. Aby uzyskać ich kompendium w dokładnie tym samym, precyzyjnym formacie, po prostu napisz "kontynuuj".*
